@@ -20,12 +20,11 @@ public class UtilsPrint {
     }
 
     public static void printMatrix(int[][] matrix) {
-        //todo P3 zaimplementowac print matrix z formatowniem na 2 cyfry
         String[] strArray = new String[matrix.length];
 
         for (int y = 0; y < matrix.length; y++) {
             for (int x = 0; x < matrix.length; x++) {
-                strArray[x] =   String.valueOf(matrix[x][y]);
+                strArray[x] = String.valueOf(matrix[x][y]);
             }
             System.out.println(Arrays.toString(strArray));
         }
@@ -33,9 +32,8 @@ public class UtilsPrint {
 
 
     public static void printMatrix(int[][] matrix, int digits) {
-        //todo P3 zaimplementowac print matrix z formatowniem na 2 cyfry
         String[] strArray = new String[matrix.length];
-        String formater = "%0"+digits+"d";
+        String formater = "%0" + digits + "d";
 
         for (int y = 0; y < matrix.length; y++) {
             for (int x = 0; x < matrix.length; x++) {

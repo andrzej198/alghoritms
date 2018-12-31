@@ -29,6 +29,9 @@ public class RandomDataCreator {
         UtilsPrint.printArray(randomArray(5, 10));
 
         System.out.println("Print random matrix: ");
-        UtilsPrint.printMatrix(randomMatrix(5, 100));
+        UtilsPrint.printMatrix(randomMatrix(5, 10));
+
+        System.out.println("Print random matrix with two digits formater: ");
+        UtilsPrint.printMatrix(randomMatrix(5, 100), 2);
     }
 }
